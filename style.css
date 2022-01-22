@@ -1,0 +1,328 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+:root{
+ --lilas: #A997DF;
+ --preto: #1D201F;
+ --claro: #F1DDBA;
+ --escuro: #D8B590; 
+ --cinza:  #55505C;
+ --cavet: 'Caveat', 'cursive'; 
+ --amatic: 'Amatic SC', 'cursive';
+ --labelle :'La Belle Aurore', 'cursive';
+     }
+
+*{
+margin: 0px;
+padding: 0px;
+ }
+      
+/*  Text attributes  */
+
+.paragrafo{
+    text-align: justify;
+    text-indent: 40px;
+    font-size: 30px;
+    font-family: var(--cavet);
+          } 
+            
+.paragrafogeral{
+    text-indent: 60px;
+    font-weight:20px;
+    font-size: 40px;
+    font-family:var(--amatic);
+    font-weight: bold;
+    text-align: center;
+               } 
+               
+.subtitle{
+font-family: var(--cavet);
+font-size: 70px;
+text-align: center;
+         }  
+
+/*  Main  */
+main{
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #A997DF,#D8B590, #D8B590, #F1DDBA, #F1DDBA);
+    margin:auto;
+    margin-top: auto;
+    text-align: justify;
+    background-attachment: fixed;
+    width: 1180px;
+    height: 1350px;
+    font-family:var(--amatic); 
+    min-width: 320px;
+    max-width: 1180px;
+    margin: auto;
+    }  
+    
+main img{
+width: 100%;
+        }
+
+/*  Body  */
+body{
+    background-image: linear-gradient(to bottom, #1D201F, #55505C, #D8B590 ,#F1DDBF, #F1DDBF);
+    background-attachment: fixed;
+    height: 350px;
+    min-width: 320px;
+    max-width: 1260px;
+    margin: auto;
+    }
+
+body text{
+    width: 100%;
+         }
+
+/*  Videos Responsivo  */
+div.video{
+margin-bottom: 20pc;
+margin: 0px -20px 30px -20px;
+padding: 20px;
+padding-bottom: 59%;
+position: relative;
+         }
+
+div.video > iframe{
+position: absolute;
+top: 5%;
+left: 5%;
+width: 90%;
+height: 90%;
+                  }
+
+/*  Sections  */
+
+section{
+border-radius: 20px;
+background-color: var(--claro);
+height: 310px;
+width: 650px;
+font-size: x-large;
+height: 310px;
+       }
+
+section > ul{
+    list-style-type: none;
+    columns: 2;
+    padding-right: 70px;
+            }
+
+.section{
+border-radius: 20px;
+background-color: var(--claro);
+text-align: justify;
+height: 400px;
+width: 650px;
+font-size: x-large;
+        }
+
+section#filter{
+padding: 10px;
+margin: auto;
+text-align: center;
+height: 400px;
+width: 200px;
+              }  
+
+/*   Header  */
+header{ 
+    text-align: center;
+    font-family:var(--amatic); 
+    color: var(--preto);
+    text-shadow: 5px 5px 1px #c7b79a;
+      } 
+
+h1#home{
+    font-size: 200px;
+    max-width: 1250px;
+    min-width: 320px;
+    font-size: 150px;
+    text-align: center;
+    margin: auto;
+       }
+
+h6#home{
+    text-shadow: none;
+    font-size: 60px;
+    max-width: 1250px;
+    min-width: 320px;
+    text-align: center;
+    margin: auto;
+       }
+
+/*   Nav  */
+nav{ 
+    max-width: 1250px;
+    min-width: 320px;
+    font-family:var(--amatic);
+    text-align: center;
+    background-attachment: fixed;
+    font-size: 20px;
+    margin: auto;
+    padding-left: 10px; 
+   }    
+    
+.nav:hover{
+    border-radius: 5px;
+    background-color:  var(--escuro);
+    box-shadow: 5px 5px 1px --preto;
+          }
+          
+nav > a{
+    margin-right: 30px;
+       }
+
+pre#nav{
+font-family: var(--amatic)
+       }
+
+.navespaço{
+    padding-left: 5px;
+    padding-right: 5px;
+          }
+
+/*  Footer  */
+footer{
+    background-color: var(--escuro);
+    font-family: var(--amatic);
+    height: 30px;
+    width: auto;
+    margin: auto;
+    font-size: 14px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 30px;
+      }        
+
+/*   == Home pag Exclusive ==  */  
+.sobre{
+    font-size: 50px; 
+    font-family: var(--labelle);
+    padding-bottom: 3px;
+      }
+
+.paragrafocontact{
+    text-align: left;
+    font-size: 30px;
+    font-family: var(--cavet);
+                 }
+
+.homeright{
+    background-image: linear-gradient(to top,#D8B590, #D8B590, #F1DDBA);
+    font-weight: bold;
+    font-family:var(--cavet);
+    box-align: right;
+          }   
+
+section#sobre{
+    display: inline-block;
+    width: 1000px;
+    height: 350px;
+    padding-left: 60px;
+             }
+
+h2#h2mainhome{
+    font-size: 50px;
+    text-align: center;
+             }
+
+section#sectioncontact{
+    padding-left: 40px;
+    border-radius: 20px;
+    background-color: var(--escuro);
+    height: 300px;
+    padding-top: 10px; 
+    width: 450px; 
+                      }
+
+section#quaserodapehome{
+margin-right: 20px;
+background-color: var(--escuro);
+font-family: var(--amatic);
+height: 210px;
+width: 650px;
+margin: auto;
+font-size: 40px;
+border-radius: 20px;
+margin-top: 10px;
+padding-top: 1px;
+padding-bottom: 30px;
+text-align: center;
+                       }
+
+section#frase{
+font-family:var(--amatic);
+padding-top: 0px;
+margin-top: 40px;
+padding-bottom: 15px;
+height: 50px;
+width: auto;
+             }
+
+/*  Anchors  */
+a{
+    color: var(--preto);
+    text-decoration-line: none;
+ }
+
+a:hover{
+    border-radius: 5px;
+    background-color:var(--claro);
+    box-shadow: 5px 5px 1px var(--preto);
+    transition-duration: .7s;
+       }
+
+/*  Nothing Important  */
+
+.espaço{
+    text-indent: 40px;
+       }
+
+.boxleft{
+    box-align: left;
+        }
+
+content{
+    font-size: x-large;
+    text-align: justify;
+       }
+
+pre{
+    font-family:var(--amatic); 
+    color: var(--preto);
+    font-weight: bold;
+   }
+
+/* Color Theme Swatches in Hex */
+.Paleta-Site-1-hex { color: #A997DF; }
+.Paleta-Site-2-hex { color: #F1DDBA;}
+.Paleta-Site-3-hex { color: #D8B590; }
+.Paleta-Site-4-hex { color: #55505C; }
+.Paleta-Site-5-hex { color: #1D201F; }
+
+/* Color Theme Swatches in RGBA */
+.Paleta-Site-1-rgba { color: rgb(29, 32, 31); }
+.Paleta-Site-2-rgba { color: rgb(85, 80, 92); }
+.Paleta-Site-3-rgba { color: rgb(241, 221, 186); }
+.Paleta-Site-4-rgba { color: rgb(216, 181, 144); }
+.Paleta-Site-5-rgba { color: rgb(169, 151, 223); }
+
+/* Color Theme Swatches in HSLA */
+.Paleta-Site-1-hsla { color: hsl(160, 5, 12); }
+.Paleta-Site-2-hsla { color: hsl(265, 7, 34); }
+.Paleta-Site-3-hsla { color: hsl(38, 66, 84); }
+.Paleta-Site-4-hsla { color: hsl(38, 48, 71); }
+.Paleta-Site-5-hsla { color: hsl(255, 53, 73); }
